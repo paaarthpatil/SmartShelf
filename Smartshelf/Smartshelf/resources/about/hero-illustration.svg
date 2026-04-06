@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Books and reading">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4ecf7"/>
+      <stop offset="100%" stop-color="#e8daef"/>
+    </linearGradient>
+    <linearGradient id="spine1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8e44ad"/><stop offset="100%" stop-color="#5b2c6f"/>
+    </linearGradient>
+    <linearGradient id="spine2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3498db"/><stop offset="100%" stop-color="#1a5276"/>
+    </linearGradient>
+    <linearGradient id="spine3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e74c3c"/><stop offset="100%" stop-color="#922b21"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="16" fill="url(#bg)"/>
+  <rect x="120" y="140" width="90" height="280" rx="6" fill="url(#spine1)"/>
+  <rect x="230" y="100" width="95" height="320" rx="6" fill="url(#spine2)"/>
+  <rect x="345" y="160" width="85" height="260" rx="6" fill="url(#spine3)"/>
+  <rect x="455" y="120" width="100" height="300" rx="6" fill="#27ae60"/>
+  <rect x="575" y="150" width="88" height="270" rx="6" fill="#f39c12"/>
+  <ellipse cx="400" cy="460" rx="280" ry="28" fill="#000" opacity="0.08"/>
+  <path d="M380 80 L420 80 L410 120 L390 120 Z" fill="#bdc3c7"/>
+  <ellipse cx="400" cy="80" rx="45" ry="12" fill="#ecf0f1"/>
+  <text x="400" y="420" text-anchor="middle" fill="#5b2c6f" font-family="Georgia,serif" font-size="28" opacity="0.85">Curated books for every reader</text>
+</svg>

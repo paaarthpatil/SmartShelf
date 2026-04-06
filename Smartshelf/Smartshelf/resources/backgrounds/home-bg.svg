@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c1f3d"/>
+      <stop offset="100%" stop-color="#1a1025"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a235a"/><stop offset="100%" stop-color="#2c0735"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect x="200" y="380" width="1520" height="24" rx="4" fill="#5b2c6f" opacity="0.5"/>
+  <rect x="240" y="200" width="70" height="180" fill="#8e44ad" opacity="0.85"/>
+  <rect x="330" y="160" width="75" height="220" fill="#3498db" opacity="0.75"/>
+  <rect x="430" y="220" width="68" height="160" fill="#e74c3c" opacity="0.8"/>
+  <rect x="520" y="180" width="80" height="200" fill="#27ae60" opacity="0.75"/>
+  <rect x="620" y="210" width="72" height="170" fill="#f39c12" opacity="0.8"/>
+  <rect x="200" y="620" width="1520" height="20" rx="4" fill="url(#shelf)" opacity="0.6"/>
+  <rect x="280" y="440" width="65" height="180" fill="#9b59b6" opacity="0.7"/>
+  <rect x="380" y="480" width="70" height="140" fill="#1abc9c" opacity="0.65"/>
+  <circle cx="960" cy="200" r="120" fill="#f39c12" opacity="0.15"/>
+</svg>
